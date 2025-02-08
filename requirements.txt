@@ -1,0 +1,4 @@
+openai
+imapclient
+email
+python-dotenv

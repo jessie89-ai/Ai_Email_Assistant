@@ -1,0 +1,66 @@
+2025-02-07 15:16:36,061 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:16:36,595 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:16:39,570 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:16:39,579 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:16:47,142 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:16:47,156 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:16:58,347 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:16:58,351 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:17:07,785 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:17:07,791 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:17:07,792 - INFO - \u2705 Successfully processed unread emails.
+2025-02-07 15:31:11,622 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:31:11,868 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:31:19,226 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:31:19,233 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:31:25,100 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:31:25,105 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:31:29,343 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:31:29,348 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:31:38,812 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:31:38,819 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:31:38,819 - INFO - \u2705 Successfully processed unread emails.
+2025-02-07 15:37:50,644 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:37:51,180 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:38:01,072 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:38:01,090 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:38:07,046 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:38:07,111 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:38:14,307 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:38:14,327 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:38:25,000 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:38:25,431 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:38:25,432 - INFO - \u2705 Successfully processed unread emails.
+2025-02-07 15:52:02,938 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:52:03,251 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:52:09,171 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:52:09,192 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:52:26,781 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:52:26,828 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:52:29,620 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:52:29,690 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:52:39,316 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 15:52:39,332 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 15:52:39,333 - INFO - \u2705 Successfully processed unread emails.
+2025-02-07 16:07:58,608 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 16:07:58,871 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 16:08:05,345 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 16:08:05,930 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 16:08:11,252 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 16:08:11,489 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 16:08:17,980 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 16:08:18,011 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 16:08:24,504 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 16:08:24,919 - ERROR - Error storing reply: Expecting value: line 1 column 1 (char 0)
+2025-02-07 16:08:24,920 - INFO - \u2705 Successfully processed unread emails.
+2025-02-07 16:30:44,528 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 16:30:44,711 - INFO - Reply stored for Google Community Team <googlecommunityteam-noreply@google.com> | Subject: Jessie, finish setting up your new Google Account
+2025-02-07 16:30:48,862 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 16:30:48,880 - INFO - Reply stored for Coinbase <info@mail.coinbase.com> | Subject: Welcome to Coinbase!
+2025-02-07 16:30:53,477 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 16:30:53,566 - INFO - Reply stored for "Kraken" <no-reply@email.kraken.com> | Subject: Manage your crypto on the go with Kraken mobile
+2025-02-07 16:31:03,410 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 16:31:03,438 - INFO - Reply stored for Simplex <no-reply@simplex.com> | Subject: 9155 - Your Verification Code
+2025-02-07 16:31:09,389 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-07 16:31:09,418 - INFO - Reply stored for "Emma (ChangeNOW)" <support@changenow.io> | Subject: [ChangeNOW] Re: I am trying to buy pls with American dollar I emailed
+ you guys a few days ago cal u please help
