@@ -1,5 +1,6 @@
 import streamlit as st
 import json
+import os
 from send_email import send_email
 from read_email import fetch_unread_emails  # Import function to fetch emails
 
@@ -8,16 +9,26 @@ REPLY_FILE = "replies.json"
 
 # 🔒 Simple authentication
 def check_password():
-    """Returns `True` if the user enters the correct password."""
+    """Returns `True` if the user enters the correct password and clicks login."""
+    if "authenticated" not in st.session_state:
+        st.session_state["authenticated"] = False
+
     password = st.text_input("Enter Password:", type="password")
-    if password == "your_secure_password":  # 🔹 Change this to a strong password
-        return True
-    else:
-        st.error("Incorrect password. Try again.")
-        return False
+
+    if st.button("Login"):  
+        correct_password = os.getenv("DASHBOARD_PASSWORD", "your_secure_password")  # Default if env var missing
+
+        if password == correct_password:
+            st.session_state["authenticated"] = True
+        elif password.lower() == "guest":
+            st.session_state["authenticated"] = "guest"
+        else:
+            st.error("Incorrect password. Try again.")
+
+    return st.session_state["authenticated"]
 
 if not check_password():
-    st.stop()  # Stop app if password is incorrect
+    st.stop()  # Stop app if not logged in
 
 # 🔄 Load stored AI replies
 def load_replies():
@@ -66,7 +77,15 @@ def main():
     if st.button("🔄 Refresh Emails"):
         refresh_emails()
 
-    replies = load_replies()
+    # 📩 Handle Guest Mode
+    if st.session_state["authenticated"] == "guest":
+        st.info("👤 Guest mode active. Displaying sample emails.")
+        replies = [
+            {"sender": "recruiter@company.com", "subject": "Exciting Job Opportunity!", "reply": "Hi, I'm interested!"},
+            {"sender": "hr@techcorp.com", "subject": "Software Engineer Interview", "reply": "Looking forward to it!"},
+        ]
+    else:
+        replies = load_replies()
 
     if not replies:
         st.info("📭 No AI replies available. Run the email processor first.")
